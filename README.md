@@ -26,8 +26,10 @@ By default sassified grid comes with 12 columns and you can use them like so:
 <div class="row">
   <div class="col-12">
     <p>I am a block that fills 12 columns</p>
-    <div class="col-6">
-      <p>I am a nested block</p>
+    <div class="row">
+      <div class="col-6">
+        <p>I am a nested block</p>
+      </div>
     </div>
   </div>
 </div>
