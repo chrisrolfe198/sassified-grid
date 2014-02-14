@@ -1,0 +1,13 @@
+// Dependancies in compass
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/box-sizing";
+
+// Variables the grid is built on
+@import "variables";
+
+// Grid files
+@import "columns";
+@import "row";
+@import "container";
+
+@include sg-columns;

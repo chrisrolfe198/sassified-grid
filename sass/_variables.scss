@@ -1,0 +1,10 @@
+// These can be migrated to a higher variable file
+$columns: 12;
+$gutter-width : 2%;
+
+// Required by SG
+$half-gutter: $gutter-width / 2;
+$total-gutter-width : $gutter-width * ($columns + 1);
+
+$total-columns-width : 100%;
+$single-column : $total-columns-width / $columns;

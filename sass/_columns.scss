@@ -1,0 +1,11 @@
+@mixin sg-columns {
+	@for $i from 1 through $columns {
+		$column-width : $single-column * $i;
+		.col-#{$i} {
+			width: #{$column-width};
+			float: left;
+			padding: 0 $half-gutter;
+			@include box-sizing(border-box);
+		}
+	}
+}
