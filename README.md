@@ -34,3 +34,19 @@ By default sassified grid comes with 12 columns and you can use them like so:
   </div>
 </div>
 ```
+
+### Offsets
+This grid now includes offsets.
+
+You can apply them like the following:
+
+```
+<div class="row">
+  <div class="col-3">
+    <p>I am a block that fills 3 columns</p>
+  </div>
+  <div class="col-offset-3 col-6">
+  	I am a block with a 3 columns gap to the block to the left
+  </div>
+</div>
+```
