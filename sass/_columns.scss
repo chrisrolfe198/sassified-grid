@@ -1,8 +1,18 @@
 @mixin sg-columns {
+	// For all the columns
 	@for $i from 1 through $columns {
+		// set the column width equal to a single column multiplied by the column we are on
 		$column-width : $single-column * $i;
+		// Set up a class for  it
 		.col-#{$i} {
 			width: #{$column-width};
+			float: left;
+			padding: 0 $half-gutter;
+			@include box-sizing(border-box);
+		}
+		// And do the same for offset
+		.col-offset-#{$i} {
+			margin-left: #{$column-width};
 			float: left;
 			padding: 0 $half-gutter;
 			@include box-sizing(border-box);
