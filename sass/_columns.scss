@@ -1,4 +1,4 @@
-@mixin sg-columns($responsive : false) {
+@mixin sg-columns {
 	// For all the columns
 	@for $i from 1 through $columns {
 		// set the column width equal to a single column multiplied by the column we are on
@@ -9,11 +9,6 @@
 			float: left;
 			padding: 0 $half-gutter;
 			@include box-sizing(border-box);
-			@if $responsive {
-    			@media (min-width : 320px) and (max-width : 480px) {
-			        width: 100%;
-                }
-            }
 		}
 
 		// And do the same for offset
