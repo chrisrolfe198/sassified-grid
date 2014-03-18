@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Sassified Grid</title>
+    <link rel="stylesheet" href="stylesheets/grid.css">
+        <style>
+            div[class*='col-'] {
+                border: solid #ccc 1px;
+            }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                Three column width
+                <div class="row">
+                    <div class="col-6">
+                        Nested 6 column width
+                    </div>
+                    <div class="col-6">
+                    Second nested 6 column width
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                Three column width
+            </div>
+            <div class="col-3">
+                Three column width
+            </div>
+            <div class="col-3">
+                Three column width
+            </div>
+        </div>
+    </div>
+</body>
+</html>
