@@ -35,6 +35,8 @@ By default sassified grid comes with 12 columns and you can use them like so:
 </div>
 ```
 
+For a clear example you can clone the repository and look at example.html in your browser
+
 ### Offsets
 This grid now includes offsets.
 
