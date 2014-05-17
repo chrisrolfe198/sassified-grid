@@ -10,4 +10,16 @@
 @import "row";
 @import "container";
 
-@include sg-columns(true);
+@include sg-columns();
+
+@media (min-width : 768px) {
+	@include sg-columns('t');
+}
+
+@media (min-width : 1024px) {
+	@include sg-columns('d');
+}
+
+@media (min-width : 1824px) {
+	@include sg-columns('ld');
+}
