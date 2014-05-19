@@ -13,7 +13,6 @@
 		// And do the same for offset
 		.col-#{$class-name}-offset-#{$i} {
 			margin-left: #{$column-width};
-			margin-right: #{$column-width};
 			float: left;
 			padding: 0 $half-gutter;
 			@include box-sizing(border-box);
