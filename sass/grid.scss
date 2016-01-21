@@ -10,15 +10,19 @@
 @import "container";
 
 @include sg-columns();
+@include sg-offsets();
 
 @media (min-width : 768px) {
 	@include sg-columns('t');
+	@include sg-offsets('t');
 }
 
 @media (min-width : 1024px) {
 	@include sg-columns('d');
+	@include sg-offsets('d');
 }
 
 @media (min-width : 1824px) {
 	@include sg-columns('ld');
+	@include sg-offsets('ld');
 }
