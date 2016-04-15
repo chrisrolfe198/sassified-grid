@@ -22,7 +22,6 @@
 		.col-#{$class-name}-offset-#{$i} {
 			margin-left: #{$column-width + $half-gutter};
 			float: left;
-			padding: 0 $half-gutter;
 			@include box-sizing(border-box);
 		}
 	}
